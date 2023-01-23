@@ -11,3 +11,25 @@ button.addEventListener('click', (e) => {
 
     console.log(data)
 })
+
+
+function login(){
+var username, password
+
+username= document.getElementById("username").value;
+password=document.getElementById("password").value;
+
+if (username == "grupo1" && password == "1"){
+
+  window.location = "dashboard2.html";
+
+}else {
+alert( "Datos Invalidos")
+
+
+}
+
+}
+
+
+

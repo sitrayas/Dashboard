@@ -10,22 +10,23 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(to right, #23cb29c8, #b3ce1d);
+    background-image: url(/img/bg.jpg);
 }
 
 form {
     display: flex;
     flex-direction: column;
-    background: rgba(255, 255, 255, 0.142);
+    background: rgba(255, 255, 255, 0.416);
     text-align: center;
     padding: 120px 200px;
-    box-shadow: 0 5px 10px rgba(71, 3, 6, 0.7);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 20px; 
 }
 
 form .title {
-    color: #252525;
-    font-size: 35px;
-    font-weight: 800;
+    color: #532800;
+    font-size: 14px;
+    font-weight: 700;
     margin-bottom: 30px;
 }
 
@@ -34,18 +35,20 @@ form label {
 }
 
 form label .fa-solid {
-    font-size: 20px;
-    color: #cb232c;
+    font-size: 25px;
+    color: #080808;
     margin-right: 10px;
+    
 }
 
 form label input {
     outline: none;
     border: none;
     color: #252525;
-    border-bottom: solid 1px #ce1d61;
-    padding: 0 5px;
+    border-bottom: solid 1px #cc2565;
+    padding: 0 8px;
     font-size: 18px;
+    border-radius: 20px;
 }
 
 form label input::placeholder {
@@ -54,15 +57,18 @@ form label input::placeholder {
 
 
 form .link {
-    color: #252525;
+    color: #1a1818;
+    font-size: 14px;
+    font-weight: 700;
     margin-bottom: 15px;
 }
 
 form button {
-    color: #fff;
+    color: rgb(255, 255, 255);
     border: none;
-    background: linear-gradient(to right, #cb232c, #ce1d61);
+    background: rgb(75, 174, 0);
     padding: 10px 15px;
     cursor: pointer;
     font-size: 20px;
+    border-radius: 20px;
 }
